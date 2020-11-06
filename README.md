@@ -25,7 +25,6 @@ You'll need a version of [Godot with Mono](https://godotengine.org/download) and
 - Confirm export with button `Export Project` at bottom
 - `Build` button should be visible in top right corner of main window now
 - Clone `ArcadiaGodot` repo into project root
-- 
 - Add to `{project}.csproj`:
 
 ```xml
@@ -34,7 +33,7 @@ You'll need a version of [Godot with Mono](https://godotengine.org/download) and
      </ItemGroup>
 ```
 
- File should look like this now:
+ - File should look like this now:
 ```xml
    <Project Sdk="Godot.NET.Sdk/3.2.3">
      <PropertyGroup>
